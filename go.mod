@@ -4,6 +4,8 @@ go 1.22.0
 
 require github.com/argoproj-labs/argocd-operator v0.13.1
 
+replace github.com/argoproj-labs/argocd-operator v0.13.1 => ./
+
 require (
 	// Pin github.com/argoproj/argo-cd/v2 to v2.12.3
 	// ref: https://github.com/argoproj-labs/argocd-operator/pull/1606#issuecomment-2490948356
